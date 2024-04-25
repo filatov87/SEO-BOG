@@ -1,91 +1,84 @@
-from openpyxl.styles import Alignment, Font
-from openai import OpenAI
-import csv
+import pandas as pd
 from openpyxl import Workbook
+from datetime import datetime
+import requests
 import os
-import datetime
-import keys
+from keys import API_KEY
 
-# Set your OpenAI API key
-client = OpenAI(
-  api_key= keys.API_KEY  # this is also the default, it can be omitted
-)
+def read_cities(file_path):
+    """Reads city names from a CSV file."""
+    try:
+        data = pd.read_csv(file_path)
+        if 'City' not in data.columns:
+            print("Error: 'City' column not found in the CSV file.")
+            return []
+        return data['City'].tolist()
+    except FileNotFoundError:
+        print("FileNotFoundError: The specified file does not exist at", file_path)
+        return []
+    except Exception as e:
+        print(f"Exception: An error occurred while reading the file: {e}")
+        return []
 
-# Define the questions
-questions = [
-    "What are the must-visit places in {destination}?",
-    "What phrases should I know in local language in {destination}?",
-    "What 3 local dishes should I try in {destination}?",
-    # Add more questions as needed
-]
+def call_openai_api(question):
+    """Call the OpenAI API to generate an answer to the given question with specific constraints."""
+    url = "https://api.openai.com/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json",
+    }
+    max_tokens = 150
+    data = {
+        "model": "gpt-3.5-turbo",
+        "messages": [{"role": "system", "content": "You are a helpful travel consultant."},
+                     {"role": "system", "content": "answer should be less than 500 characters"},
+                     {"role": "user", "content": question}],
+        "max_tokens": max_tokens,
+        "temperature": 0.8
+    }
+    response = requests.post(url, json=data, headers=headers)
+    if response.status_code == 200:
+        return response.json()['choices'][0]['message']['content']
+    else:
+        print("Failed to fetch response:", response.text)
+        return "No answer available."
 
-def generate_text(prompt):
-    response = client.completions.create(
-        model= "gpt-3.5-turbo-instruct",
-        prompt=prompt,
-        max_tokens=100
-    )
-    return response.choices[0].text.strip()
-
-# Function to load destinations from a CSV file
-def load_destinations_from_csv(csv_file):
-    destinations = []
-    with open(csv_file, "r", newline="", encoding="utf-8") as file:
-        reader = csv.reader(file)
-        for row in reader:
-            destinations.append(row[0])
-    return destinations
-
-# Get the path to the cities CSV file
-current_dir = os.path.dirname(os.path.abspath(__file__))
-cities_file = os.path.join(current_dir, "cities.csv")
-
-# Load destinations from the CSV file
-destinations = load_destinations_from_csv(cities_file)
-
-# Function to generate combinations of questions and destinations
-def generate_combinations(questions, destinations):
-    combinations = []
-    for question in questions:
-        for destination in destinations:
-            prompt = question.replace("{destination}", destination)
-            answer = generate_text(prompt)
-            combinations.append((question, destination, answer))
-    return combinations
-
-# Generate combinations
-combinations = generate_combinations(questions, destinations[:2])  # Take the first X cities
-
-# Create a new Excel file with timestamp in the filename
-timestamp = datetime.datetime.now().strftime("%d%m_%H%M")
-filename = f"Answers_{timestamp}.xlsx"
-wb = Workbook()
-ws = wb.active
-
-# Write the header row with questions as column titles
-ws.append(["Destination"] + questions)
-
-# Write the data rows
-for destination in destinations:
-    row_data = [destination]  # Start with the destination name
+def create_excel_with_questions_answers(cities, file_prefix="answers"):
+    """Creates an Excel file with cities as rows and questions as columns, including answers."""
+    now = datetime.now()
+    formatted_date_time = now.strftime("%Y%m%d_%H%M")
+    directory = "Answers"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    output_file = f"{directory}/{file_prefix}_{formatted_date_time}.xlsx"
     
-    # Write answers for each question
-    for question in questions:
-        # Get the answer for the current question and destination
-        answer = [combinations[j][2] for j in range(len(combinations)) if combinations[j][1] == destination and combinations[j][0] == question][0] if combinations else ""
-        
-        # Add the answer to the row_data
-        row_data.append(answer)
+    wb = Workbook()
+    ws = wb.active
+    questions = [
+        "What should I do in {city}?",
+        "What local dishes should I try in {city}?",
+        "What 5 phrases should I know when visiting {city}?"
+    ]
     
-    # Write the row_data to the worksheet
-    ws.append(row_data)
+    headers = ["City"] + [q.format(city="{city}") for q in questions]
+    ws.append(headers)
+    for city in cities:
+        row = [city]
+        for question_template in questions:
+            question = question_template.format(city=city)
+            answer = call_openai_api(question)
+            row.append(answer)
+        ws.append(row)
+    
+    wb.save(output_file)
+    print("Excel file saved as:", output_file)
+    print("Done")
 
-# Apply text wrapping for all cells
-for row in ws.iter_rows():
-    for cell in row:
-        cell.alignment = Alignment(wrap_text=True)
-
-# Save the results to the Excel file
-wb.save(filename)
-
-print("done!")
+if __name__ == "__main__":
+    # Ensure the path here is correctly set to where your 'cities.csv' is located relative to this script.
+    cities_file_path = 'cities.csv'
+    cities = read_cities(cities_file_path)
+    if cities:
+        create_excel_with_questions_answers(cities)
+    else:
+        print("No cities found or unable to read the file. Please check your CSV file.")
