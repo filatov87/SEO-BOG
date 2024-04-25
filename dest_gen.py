@@ -4,11 +4,11 @@ import csv
 from openpyxl import Workbook
 import os
 import datetime
+import keys
 
 # Set your OpenAI API key
-# openai.api_key = "sk-proj-hayNY99suitFRPm22sKXT3BlbkFJIj5oXgrhoBqQGaiXG83a"
 client = OpenAI(
-  api_key="sk-proj-hayNY99suitFRPm22sKXT3BlbkFJIj5oXgrhoBqQGaiXG83a",  # this is also the default, it can be omitted
+  api_key= keys.API_KEY  # this is also the default, it can be omitted
 )
 
 # Define the questions
