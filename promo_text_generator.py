@@ -63,10 +63,10 @@ def translate_text(text):
         print("Failed to translate text:", response.text)
         return ""
 
-def create_excel_with_questions_answers(cities, file_prefix="answers"):
+def create_excel_with_questions_answers(cities, file_prefix="promos"):
     now = datetime.now()
     formatted_date_time = now.strftime("%Y%m%d_%H%M")
-    directory = "Answers"
+    directory = "Promos"
     if not os.path.exists(directory):
         os.makedirs(directory)
     output_file = f"{directory}/{file_prefix}_{formatted_date_time}.xlsx"
@@ -77,11 +77,7 @@ def create_excel_with_questions_answers(cities, file_prefix="answers"):
     ws_es = wb.create_sheet("SPANISH TXT")
 
     questions = [
-        "What should I do in {city}?",
-        "What local dishes should I try in {city}?",
-        "What 5 phrases should I know when visiting {city}?",
-        "When is the best time to visit {city}?",
-
+        "Create me a promotional text for {city}",
     ]
 
     headers = ["City"] + [q.format(city="{city}") for q in questions]
