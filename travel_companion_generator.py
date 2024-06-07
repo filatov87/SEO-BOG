@@ -29,7 +29,7 @@ def call_openai_api(question):
     }
     data = {
         "model": "gpt-3.5-turbo",
-        "messages": [{"role": "system", "content": "You are a helpful travel consultant."},
+        "messages": [{"role": "system", "content": "You are a helpful travel consultant. You do not use word \"vibrant\"."},
                      {"role":"system", "content": "Each answer should be less than 500 characters."},
                      {"role": "user", "content": question}],
         "max_tokens": 200,

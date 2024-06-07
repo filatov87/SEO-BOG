@@ -29,8 +29,8 @@ def call_openai_api(question):
     }
     data = {
         "model": "gpt-3.5-turbo",
-        "messages": [{"role": "system", "content": "You are a helpful travel consultant."},
-                     {"role":"system", "content": "Each answer should be less than 500 characters."},
+        "messages": [{"role": "system", "content": "You are a helpful travel consultant. Include popular SEO words in your answers."},
+                     {"role":"system", "content": "Each answer should be less than 500 characters. Do not use word 'vibrant'."},
                      {"role": "user", "content": question}],
         "max_tokens": 200,
         "temperature": 0.8
@@ -77,7 +77,7 @@ def create_excel_with_questions_answers(cities, file_prefix="promos"):
     ws_es = wb.create_sheet("SPANISH TXT")
 
     questions = [
-        "Create me a promotional text for {city}",
+        "Why should I visit {city}?",
     ]
 
     headers = ["City"] + [q.format(city="{city}") for q in questions]
