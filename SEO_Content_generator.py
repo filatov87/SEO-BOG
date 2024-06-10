@@ -46,7 +46,7 @@ def call_openai_api(prompt):
             {"role": "system", "content": "Don't address me."},
             {"role": "user", "content": prompt}
         ],
-        "max_tokens": 400,
+        "max_tokens": 500,
         "temperature": 0.8
     }
     response = requests.post(url, json=data, headers=headers)
@@ -71,15 +71,16 @@ def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
     headers = [
         "Lead Departure City", "Lead Destination City",
         "Lead Departure City code", "Lead Destination City code",
-        "BOTTOM: Definitive guide to travel from Lead Departure City to Lead Destination City",
-        "LEFT: What should I know about Lead Destination City?",
-        "RIGHT: Cheap flights from Lead Departure City to Lead Destination City",
-        "BOTTOM:How to get from Lead Departure City to Lead Destination City by plane?",
-        "FAQ 1: When is the best time to visit Lead Destination City?",
-        "FAQ 2: What 5 phrases should I know when visiting Lead Destination City?",
-        "FAQ 3: Do I need a VISA?"
+        "Why visit {destination}?",
+        "Guide from {departure} to {destination}",
+        "What should I know about {destination}?",
+        "Cheap flights from {departure} to {destination}",
+        "How to get from {departure} to {destination} by plane?",
+        "When is the best time to visit {destination}?",
+        "What 5 phrases should I know when visiting {destination}?",
+        "Do I need a VISA to travel from {departure} to {destination}?"
     ]
-    ws.append(headers)
+    ws.append([header.format(departure="Lead Departure City", destination="Lead Destination City") for header in headers])
 
     for index, row in city_pairs.iterrows():
         departure_city = row['Lead Departure City']
@@ -88,7 +89,9 @@ def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
         destination_city_code = row['Lead Destination City code']
 
         prompts = [
-            f"""Definitive guide to travel from {departure_city} to {destination_city}. 1000 words. Must include topics like: 
+            f"250 characters: Why visit {destination_city}?",
+            f"Write a comprehensive and engaging introductory section for a travel guide. The guide is aimed at people planning a trip from {departure_city} to {destination_city}. The introduction should mention key aspects such as transportation options, accommodation, local customs, events, and cuisine. It should assure readers that they will be well-prepared for their trip and highlight the excitement of an unforgettable adventure in {destination_city}. Also, encourage readers to check out a section on flights to {destination_city} for the best options. The tone should be informative, friendly, and inviting.",
+            f"""Definitive guide to travel from {departure_city} to {destination_city}. 500 words. Must include topics like: 
             How to get from {departure_city} to {destination_city} by plane?, 
             Transfers to the city and surroundings from the airport to {destination_city},
             Where to stay in {destination_city}?,
@@ -97,9 +100,9 @@ def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
             Things you should know before traveling to {destination_city},
             Curious facts about {destination_city},
             Prepare for your trip to {destination_city}""",
-            f"What should I know about {destination_city}?",
-            f"Cheap flights from {departure_city} to {destination_city}",
-            f"How to get from {departure_city} to {destination_city} by plane?",
+            f"500 characters: What should I know about {destination_city}?",
+            f"500 characters: Cheap flights from {departure_city} to {destination_city}",
+            f"500 words travel article: How to get from {departure_city} to {destination_city} by plane?",
             f"When is the best time to visit {destination_city}?",
             f"What 5 phrases should I know when visiting {destination_city}?",
             f"Do I need a visa for traveling from {departure_city} to {destination_city}?"
