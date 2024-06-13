@@ -22,18 +22,12 @@ This Python script generates SEO-optimized travel content for given city pairs u
 
 2. Install the required Python packages:
     ```bash
-    pip install pandas openpyxl requests gspread oauth2client
+    pip install pandas openpyxl requests
     ```
 
 ## Setup
 
-1. **Google Sheets API**:
-    - Go to the [Google Cloud Console](https://console.cloud.google.com/).
-    - Create a new project or select an existing one.
-    - Enable the **Google Sheets API** and **Google Drive API** for your project.
-    - Create credentials for a **Service Account** and download the JSON key file. Save it as `credentials.json` in the project directory.
-
-2. **OpenAI API Key**:
+1. **OpenAI API Key**:
     - Obtain an API key from OpenAI.
     - Create a `keys.py` file in the project directory and add your API key:
         ```python
