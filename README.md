@@ -55,9 +55,10 @@ This Python script generates SEO-optimized travel content for given city pairs u
 Ensure you have your OpenAI API key stored in a `keys.py` file:
 ```python
 API_KEY = 'your_openai_api_key'
+'''
 
 ## **CSV File Format**
- ```
+ ```bash
 Lead Departure City code,Lead Departure City,Lead Departure Country,Lead Destination City code,Lead Destination City,Lead Destination Country
  ```
 
