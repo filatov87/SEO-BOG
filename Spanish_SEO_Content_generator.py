@@ -39,6 +39,7 @@ def call_openai_api(prompt):
         "model": "gpt-3.5-turbo",
         "messages": [
             {"role": "system", "content": "You are a helpful travel consultant."},
+            {"role": "system", "content": "YYou provide answers in Spanish."},
             {"role": "user", "content": prompt}
         ],
         "max_tokens": 500,
@@ -51,7 +52,7 @@ def call_openai_api(prompt):
         print("Failed to fetch response:", response.text)
         return "No answer available."
 
-def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
+def create_excel_with_promos(city_pairs, file_prefix="Spanish_Content_table"):
     now = datetime.now()
     formatted_date_time = now.strftime("%Y%m%d_%H%M")
     directory = "Promos"
@@ -66,18 +67,18 @@ def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
     headers = [
         "Lead Departure City code", "Lead Departure City", "Lead Departure Country",
         "Lead Destination City code", "Lead Destination City", "Lead Destination Country",
-        "Your ultimate guide for {departure_city} to {destination_city} travel",
-        "What you need to know about {destination_city}?",
-        "Unlocking the best {departure_city} to {destination_city} flight deals",
-        "Best {departure_city} to {destination_city} itineraries",
-        "Transportation to {destination_city} from Airport",
-        "Where to stay in {destination_city}?",
-        "Top sights and attractions in {destination_city}",
-        "Words to know in {destination_city}",
-        "What to remember before traveling to {destination_city}",
-        "Fun Facts about {destination_city}",
-        "Get ready for your trip to {destination_city}",
-        "F.A.Q."
+        "Guía definitiva para viajar de {departure_city} a {destination_city}",
+        "¿Qué debo saber de {destination_city}?",
+        "Vuelos baratos desde {departure_city} a {destination_city}",
+        "Cómo llegar desde {departure_city} a {destination_city} en avion",
+        "Traslados a la ciudad y alrededores desde el aeropuerto a {destination_city}",
+        "Dónde alojarse en {destination_city}",
+        "Los mejores lugares turísticos de {destination_city} que debes conocer",
+        "Palabras para saber en {destination_city}",
+        "Cosas que debes saber antes de viajar a {destination_city}",
+        "Datos curiosos sobre {destination_city}",
+        "Prepárate para tu viaje a {destination_city}",
+        "Preguntas más frecuentes"
     ]
     ws.append(headers)
 
@@ -101,7 +102,7 @@ def create_excel_with_promos(city_pairs, file_prefix="Content_table"):
             f"I’m writing a travel article about traveling to {destination_city} from {departure_city}. Depending on the languages in {departure_city} and {destination_city} please create a list of 10 useful words to know in {destination_city}. If the languages in {departure_city} and {destination_city} are different, then this will be like a dictionary. Don’t mention the name of the language and don’t repeat the word in the description. If the languages are the same, then list 10 local words that are good to know. Focus on the keyword 'travel to {destination_city}' and use it at least once in the response. When completing the text, please use language understood by 16-year-old readers. 80% of the sentences should be 20 words or less. Provide transitional phrases or sentences to enhance the overall flow of the article but keep sentence length to 20 words or less. When possible, avoid passive voice. Do not address me in the response, as I just want to post your list into my article.",
             f"I’m writing a travel article and need a section about things to consider before traveling. Please provide context. The currency used in {destination_city} is... Keep in mind that the text will be read by travelers from {departure_city}. Mention ways to purchase the local currency both in {departure_city} and in {destination_city}. You can also talk about using credit cards and bank cards. Please focus on the keyword 'travel to {destination_city}'. Next introduce safety issues when traveling to {destination_city}: Whenever you travel, you need to follow some basic safety precautions... Do so in a neutral and sensitive way so as not to upset residents of {destination_city}. Finally, talk about the advantages of getting travel insurance when traveling to {destination_city}. However, don’t mention {destination_city}, instead mention the country that {destination_city} is located in. For the formatting of all of the above, do not use headings and only write in short paragraphs that are easy to read. Focus on the keyword 'travel to {destination_city}' and use it at least once in the response. When completing the text, please use language understood by 16-year-old readers. 80% of the sentences should be 20 words or less. Provide transitional phrases or sentences to enhance the overall flow of the article but keep sentence length to 20 words or less. When possible, avoid passive voice. I only need the three sections mentioned (currency, safety, and insurance) and do not need a general paragraph talking about all three of them.",
             f"I’m writing a travel article and need a section with Fun facts about a city. Here’s what I have: If you’re reading this article, we know you already want to travel to {destination_city}, so here are a few fun facts about {destination_city}. Please provide context and offer 5-7 fun facts about {destination_city}. Focus on the keyword 'travel to {destination_city}' and use it at least once in the response. When completing the text, please use language understood by 16-year-old readers. 80% of the sentences should be 20 words or less. Provide transitional phrases or sentences to enhance the overall flow of the article but keep sentence length to 20 words or less. When possible, avoid passive voice. Do not address me in the response.",
-            f"I’ve written an article about traveling from {departure_city} to {destination_city}. And I need a conclusion for the article. The sections in my article have been: Travel to {destination_city} from {departure_city}, What you need to know about {destination_city}, Unlocking the Best {departure_city} to {destination_city} Flight Deals, Top {departure_city} to {destination_city} itineraries, Transportation to {destination_city} from the airport, Where to stay in {destination_city}, Top sights and attractions in {destination_city}, What to remember before traveling to {destination_city}. Don’t mention visa requirements in the conclusion. I also need you to reiterate that by calling an ASAP Tickets travel agent by dialing 844-300-7983 you can save on flights. When completing the text, focus on the keyword 'flights to {destination_city}' and use it at least once in the response. When completing the text, please use language understood by 16-year-old readers. 80% of the sentences should be 20 words or less. Provide transitional phrases or sentences to enhance the overall flow of the article but keep sentence length to 20 words or less. When possible, avoid passive voice."
+            f"I’ve written an article about traveling from {departure_city} to {destination_city}. And I need a conclusion for the article. The sections in my article have been: Travel to {destination_city} from {departure_city}, What you need to know about {destination_city}, Unlocking the Best {departure_city} to {destination_city} Flight Deals, Top {departure_city} to {destination_city} itineraries, Transportation to {destination_city} from the airport, Where to stay in {destination_city}, Top sights and attractions in {destination_city}, What to remember before traveling to {destination_city}. Don’t mention visa requirements in the conclusion. I also need you to reiterate that by calling an ASAP Tickets travel agent by dialing 844-300-7983 you can save on flights. When completing the text, focus on the keyword 'flights to {destination_city}' and use it at least once in the response. When completing the text, please use language understood by 16-year-old readers. 80% of the sentences should be 20 words or less. Provide transitional phrases or sentences to enhance the overall flow of the article but keep sentence length to 20 words or less. When possible, avoid passive voice.",
             f"I'm writing a travel guide about traveling from {departure_city} to {destination_city}. Please create an FAQ with 10 question-and-answer pairs about making such a trip. Write in a friendly and clear way. Please don't address me."
         ]
 
