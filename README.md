@@ -55,3 +55,39 @@ This Python script generates SEO-optimized travel content for given city pairs u
 Ensure you have your OpenAI API key stored in a `keys.py` file:
 ```python
 API_KEY = 'your_openai_api_key'
+
+## **CSV File Format**
+ ```
+Lead Departure City code,Lead Departure City,Lead Departure Country,Lead Destination City code,Lead Destination City,Lead Destination Country
+ ```
+
+Example:
+```bash
+WAS,Washington,United States,SAL,San Salvador,El Salvador
+NYC,New York,United States,GYE,Guayaquil,Ecuador
+NYC,New York,United States,LIM,Lima,Peru
+LAX,Los Angeles,United States,SAL,San Salvador,El Salvador
+'''
+
+## **Generated Content**
+
+The script generates various sections of a travel article including:
+
+	•	Introduction
+	•	Local culture and customs
+	•	Tips for cheaper travel
+	•	Ideal routes and itineraries
+	•	Transportation from the airport
+	•	Accommodation options
+	•	Top local sights and attractions
+	•	Useful words to know
+	•	Things to consider before traveling
+	•	Fun facts about the city
+	•	Conclusion
+	•	FAQ
+
+Each section is tailored to the specific city pair and includes relevant SEO keywords.
+
+## **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
