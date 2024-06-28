@@ -1,94 +1,109 @@
-# Travel Article SEO Content Generator
+# SEO BOG
 
-This Python script generates SEO-optimized travel content for given city pairs using the OpenAI API. The generated content is then saved in an Excel file.
+## Project Description
+SEO BOG generates data for promotional Travel SEO pages. The data includes FAQs, short and long articles, O&D route maps. This project includes various scripts for handling Excel and CSV files, generating HTML maps, and more.
 
 ## Table of Contents
-
 - [Installation](#installation)
-- [Setup](#setup)
 - [Usage](#usage)
-- [API Key](#api-key)
-- [CSV File Format](#csv-file-format)
-- [Generated Content](#generated-content)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
+- [Configuration](#configuration)
+- [Contribution](#contribution)
 - [License](#license)
+- [Contact](#contact)
 
 ## Installation
-
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/travel-article-seo-generator.git
-    cd travel-article-seo-generator
+    ```sh
+    git clone https://github.com/filatov87/SEO-BOG.git
+    cd SEO-BOG
     ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install pandas openpyxl requests
+2. Set up a virtual environment and activate it:
+    ```sh
+    python3 -m venv myenv
+    source myenv/bin/activate
     ```
-
-## Setup
-
-1. **OpenAI API Key**:
-    - Obtain an API key from OpenAI.
-    - Create a `keys.py` file in the project directory and add your API key:
-        ```python
-        API_KEY = 'your_openai_api_key'
-        ```
+3. Install the required dependencies:
+    ```sh
+    pip install pandas openpyxl selenium urllib3 google-api-python-client requests pillow
+    ```
 
 ## Usage
-
-1. Prepare your CSV file with city pairs:
-    - The CSV file should be named `departures_destinations.csv` and placed in the same directory as the script.
-    - The format of the CSV should be:
+### Running the Scripts
+1. **Generate Text Data**: 
+    - For English content: 
+        ```sh
+        python SEO_Content_generator.py
         ```
-        Lead Departure City code,Lead Departure City,Lead Departure Country,Lead Destination City code,Lead Destination City,Lead Destination Country
+    - For Spanish content: 
+        ```sh
+        python Spanish_SEO_Content_generator.py
         ```
 
-2. Run the script:
-    ```bash
-    python SEO_Content_generator.py
+2. **Parse to JSON if needed**:
+    ```sh
+    python bilingual_parser_to_JSON.py
     ```
 
-3. The generated content will be saved in an Excel file in the `Promos` directory.
+3. **Generate Static Maps**:
+    ```sh
+    python Static_maps_generator.py
+    ```
 
-## API Key
+4. **Add Logos to Maps**:
+    ```sh
+    python add_logos_to_maps.py
+    ```
 
-Ensure you have your OpenAI API key stored in a `keys.py` file:
-```python
-API_KEY = 'your_openai_api_key'
-'''
+5. **Generate HTML Maps (if needed)**:
+    ```sh
+    python html_map_generator.py
+    ```
 
-## **CSV File Format**
- ```bash
-Lead Departure City code,Lead Departure City,Lead Departure Country,Lead Destination City code,Lead Destination City,Lead Destination Country
- ```
+## Scripts
+- `SEO_Content_generator.py`: Generates English SEO content.
+- `Spanish_SEO_Content_generator.py`: Generates Spanish SEO content.
+- `bilingual_parser_to_JSON.py`: Parses Excel files and converts them to JSON format.
+- `Static_maps_generator.py`: Generates static maps.
+- `add_logos_to_maps.py`: Adds logos to generated maps.
+- `html_map_generator.py`: Generates HTML maps based on provided data.
 
-Example:
-```bash
-WAS,Washington,United States,SAL,San Salvador,El Salvador
-NYC,New York,United States,GYE,Guayaquil,Ecuador
-NYC,New York,United States,LIM,Lima,Peru
-LAX,Los Angeles,United States,SAL,San Salvador,El Salvador
+## Dependencies
+- pandas
+- openpyxl
+- selenium
+- urllib3
+- google-api-python-client
+- requests
+- pillow
+
+Install these dependencies using:
+```sh
+pip install pandas openpyxl selenium urllib3 google-api-python-client requests pillow
 ```
+## Configuration
 
-## **Generated Content**
+Ensure the following files are prepared and placed in the appropriate directories:
 
-The script generates various sections of a travel article including:
+- `departures_destinations.csv`: Contains data with columns Lead Departure City code, Lead Departure City, Lead Departure Country, Lead Destination City code, Lead Destination City, Lead Destination Country.
+- `Logo.png`: Logo file to be used in the maps.
 
-	•	Introduction
-	•	Local culture and customs
-	•	Tips for cheaper travel
-	•	Ideal routes and itineraries
-	•	Transportation from the airport
-	•	Accommodation options
-	•	Top local sights and attractions
-	•	Useful words to know
-	•	Things to consider before traveling
-	•	Fun facts about the city
-	•	Conclusion
-	•	FAQ
+The input files should be placed in the Source directory, and the output files will be saved in the JSON-output directory.
 
-Each section is tailored to the specific city pair and includes relevant SEO keywords.
+## Contribution
 
-## **License**
+	1.	Fork the repository.
+	2.	Create a new branch (git checkout -b feature-branch).
+	3.	Make your changes.
+	4.	Commit your changes (git commit -am 'Add new feature').
+	5.	Push to the branch (git push origin feature-branch).
+	6.	Create a new Pull Request.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For any questions or issues, please open an issue in the repository or contact filatov87.
