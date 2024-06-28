@@ -1,0 +1,39 @@
+Lead Departure City code,Lead Departure City,Lead Departure Country,Lead Destination City code,Lead Destination City,Lead Destination Country
+NYC,New York,United States,SAL,San Salvador,El Salvador
+MIA,Miami,United States,HAV,Havana,Cuba
+HOU,Houston,United States,SAL,San Salvador,El Salvador
+MIA,Miami,United States,LIM,Lima,Peru
+NYC,New York,United States,MEX,Mexico City,Mexico
+NYC,New York,United States,UIO,Quito,Ecuador
+LAX,Los Angeles,United States,GUA,Guatemala City,Guatemala
+NYC,New York,United States,SDQ,Santo Domingo,Dominican Republic
+CHI,Chicago,United States,MEX,Mexico City,Mexico
+MIA,Miami,United States,MGA,Managua,Nicaragua
+DFW,Dallas,United States,SAL,San Salvador,El Salvador
+NYC,New York,United States,STI,Santiago,Dominican Republic
+MIA,Miami,United States,MAD,Madrid,Spain
+NYC,New York,United States,GUA,Guatemala City,Guatemala
+NYC,New York,United States,BOG,Bogota,Colombia
+NYC,New York,United States,MDE,Medellin,Colombia
+MIA,Miami,United States,BOG,Bogota,Colombia
+MIA,Miami,United States,BUE,Buenos Aires,Argentina
+WAS,Washington,United States,LIM,Lima,Peru
+SFO,San Francisco,United States,SAL,San Salvador,El Salvador
+NYC,New York,United States,CLO,Cali,Colombia
+LAX,Los Angeles,United States,LIM,Lima,Peru
+MIA,Miami,United States,MDE,Medellin,Colombia
+NYC,New York,United States,MIA,Miami,United States
+DFW,Dallas,United States,MEX,Mexico City,Mexico
+MIA,Miami,United States,NYC,New York,United States
+NYC,New York,United States,SAP,San Pedro Sula,Honduras
+HOU,Houston,United States,MEX,Mexico City,Mexico
+MIA,Miami,United States,CLO,Cali,Colombia
+CHI,Chicago,United States,GDL,Guadalajara,Mexico
+WAS,Washington,United States,GUA,Guatemala City,Guatemala
+HOU,Houston,United States,SAP,San Pedro Sula,Honduras
+LAX,Los Angeles,United States,MEX,Mexico City,Mexico
+LAX,Los Angeles,United States,GDL,Guadalajara,Mexico
+BOS,Boston,United States,SAL,San Salvador,El Salvador
+ATL,Atlanta,United States,MEX,Mexico City,Mexico
+MIA,Miami,United States,SNU,Santa Clara,Cuba
+MIA,Miami,United States,MEX,Mexico City,Mexico

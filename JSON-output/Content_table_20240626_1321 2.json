@@ -1,0 +1,155 @@
+[
+    {
+        "depCity": "MIA",
+        "destCity": "HAV",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "What is the best way to travel from Miami to Havana? ",
+                "answer": "The most convenient and popular way is to take a direct flight from Miami to Havana."
+            },
+            {
+                "question": "How long does it take to fly from Miami to Havana?",
+                "answer": "The average flight time from Miami to Havana is around 1 hour and 15 minutes, depending on the airline and any layovers."
+            },
+            {
+                "question": "Do I need a visa to travel from Miami to Havana?",
+                "answer": "Yes, US citizens need a visa to travel to Cuba. You can apply for a tourist visa through the Cuban Embassy or a licensed travel agency."
+            },
+            {
+                "question": "What is the currency used in Havana?",
+                "answer": "The official currency in Cuba is the Cuban Convertible Peso (CUC). It's recommended to exchange your money to CUC upon arrival."
+            },
+            {
+                "question": "Is it safe to travel from Miami to Havana?",
+                "answer": "Yes, traveling from Miami to Havana is generally safe. Just like any other destination, it's advisable to take standard precautions and be mindful of your belongings."
+            },
+            {
+                "question": "Can I use my US credit or debit card in Havana?",
+                "answer": "US credit and debit cards are not widely accepted in Cuba. It's best to bring enough cash in either Euros, Canadian Dollars, or Pounds to exchange for CUC."
+            },
+            {
+                "question": "What are some must-visit attractions in Havana?",
+                "answer": "Some must-visit attractions in Havana include Old Havana (Habana Vieja), Malec\u00f3n promenade, El Capitolio, and the colorful neighborhood of Vedado."
+            },
+            {
+                "question": "What is the best time of year to visit Havana from Miami?",
+                "answer": "The best time to visit Havana is during the dry season, which runs from November to April. The weather is pleasant, and you'll avoid the rainy season."
+            },
+            {
+                "question": "How do I get around in Havana?",
+                "answer": "Getting around Havana is easy with options like taxis, vintage American cars known as \"almendrones,\" bicycle taxis, and public buses. Walking is also a great way to explore the city."
+            },
+            {
+                "question": "What should I pack for my trip from Miami to Havana?",
+                "answer": "Pack light, breathable clothing, comfortable walking shoes, sunscreen, insect repellent, and any necessary medications. Don't forget your passport, visa, and some cash for expenses."
+            }
+        ],
+        "articleBlocks": []
+    },
+    {
+        "depCity": "HOU",
+        "destCity": "SAL",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "How long does it take to fly from Houston to San Salvador?",
+                "answer": "The average flight time from Houston to San Salvador is around 3 to 4 hours, depending on the airline and any layovers."
+            },
+            {
+                "question": "What airlines offer direct flights from Houston to San Salvador?",
+                "answer": "Currently, United Airlines is the main carrier that offers direct flights from Houston to San Salvador."
+            },
+            {
+                "question": "Is it safe to travel to San Salvador from Houston?",
+                "answer": "Yes, San Salvador is generally a safe destination for travelers, but as with any trip, it's advisable to take normal safety precautions and be aware of your surroundings."
+            },
+            {
+                "question": "Do I need a visa to visit San Salvador as a U.S. citizen?",
+                "answer": "U.S. citizens do not need a visa for stays up to 90 days in El Salvador. However, a valid passport is required."
+            },
+            {
+                "question": "What is the best time of year to visit San Salvador?",
+                "answer": "The best time to visit San Salvador is during the dry season, from November to April, when the weather is sunny and enjoyable."
+            },
+            {
+                "question": "What are some must-see attractions in San Salvador?",
+                "answer": "Some must-see attractions in San Salvador include the El Boqueron National Park, the National Palace, and the Joya de Ceren archaeological site."
+            },
+            {
+                "question": "How is the public transportation system in San Salvador?",
+                "answer": "San Salvador has an extensive public transportation system, including buses and taxis. It's recommended to use reputable taxi services or ridesharing apps for convenience and safety."
+            },
+            {
+                "question": "What currency is used in San Salvador?",
+                "answer": "The official currency of El Salvador is the U.S. Dollar. It's widely accepted, so you won't need to exchange money before your trip."
+            },
+            {
+                "question": "Are there any health concerns I should be aware of when traveling to San Salvador?",
+                "answer": "It's advisable to drink bottled water and take mosquito precautions to prevent illnesses such as dengue fever. It's also recommended to have travel insurance that covers medical expenses."
+            },
+            {
+                "question": "What are some cultural etiquettes to keep in mind when visiting San Salvador?",
+                "answer": "When visiting San Salvador, it's important to greet people with a handshake and show respect for local customs and traditions. Learning a few basic Spanish phrases can also go a long way in making connections"
+            }
+        ],
+        "articleBlocks": []
+    },
+    {
+        "depCity": "MIA",
+        "destCity": "LIM",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "How long does it take to fly from Miami to Lima? ",
+                "answer": "The average flight time from Miami to Lima is around 6 to 7 hours, depending on the airline and any layovers."
+            },
+            {
+                "question": "What airlines operate flights from Miami to Lima? ",
+                "answer": "Airlines such as American Airlines, LATAM Airlines, and Avianca offer direct and connecting flights from Miami to Lima."
+            },
+            {
+                "question": "Do I need a visa to travel from Miami to Lima? ",
+                "answer": "U.S. citizens do not need a visa for stays up to 183 days in Peru for tourism or business purposes. However, a valid passport is required."
+            },
+            {
+                "question": "What is the best time of year to travel from Miami to Lima? ",
+                "answer": "The best time to visit Lima is during the dry season from December to April when the weather is warm and sunny."
+            },
+            {
+                "question": "How far is Lima Airport from the city center? ",
+                "answer": "Jorge Chavez International Airport is located about 7.5 miles (12 km) from the center of Lima, and taxis or airport shuttles are readily available."
+            },
+            {
+                "question": "Is it safe to travel from Miami to Lima? ",
+                "answer": "Like any other major city, it's essential to stay vigilant and be aware of your surroundings. Overall, Lima is a safe city for tourists."
+            },
+            {
+                "question": "What currency is used in Lima, Peru? ",
+                "answer": "The official currency of Peru is the Peruvian Sol (PEN). It's recommended to have some local currency for small purchases."
+            },
+            {
+                "question": "Are there direct flights from Miami to Lima? ",
+                "answer": "Yes, there are direct flights from Miami International Airport to Jorge Chavez International Airport in Lima, Peru."
+            },
+            {
+                "question": "What are some must-visit attractions in Lima? ",
+                "answer": "Some must-visit attractions in Lima include the historic center, Miraflores district, Larco Museum, and Huaca Pucllana."
+            },
+            {
+                "question": "Is it necessary to get vaccinated before traveling from Miami to Lima? ",
+                "answer": "While no specific vaccinations are required for entry into Peru, it's recommended to be up to date on routine vaccinations and consider vaccinations for Hepatitis A and Typhoid."
+            }
+        ],
+        "articleBlocks": []
+    }
+]

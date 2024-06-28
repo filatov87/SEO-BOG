@@ -1,0 +1,376 @@
+2024-06-28 10:41:47,636:INFO:Обработка пары: Miami - Havana
+2024-06-28 10:41:47,839:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 10:41:47,992:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 10:41:48,204:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 10:41:48,205:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 10:41:48,376:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 10:41:48,524:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 10:41:48,839:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 10:41:48,840:INFO:Обработка пары: Miami - Lima
+2024-06-28 10:41:48,978:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 10:41:49,146:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 10:41:49,423:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 10:48:55,752:INFO:Обработка пары: Miami - Havana
+2024-06-28 10:48:55,918:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 10:48:56,083:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 10:48:56,346:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 10:48:56,346:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 10:48:56,512:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 10:48:56,679:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 10:48:56,917:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 10:48:56,917:INFO:Обработка пары: Miami - Lima
+2024-06-28 10:48:57,059:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 10:48:57,461:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 10:48:57,659:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 11:41:02,513:INFO:Обработка пары: Miami - Havana
+2024-06-28 11:41:02,667:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 11:41:02,814:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 11:41:02,950:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 11:41:02,950:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 11:41:03,075:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 11:41:03,227:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 11:41:03,521:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 11:41:03,521:INFO:Обработка пары: Miami - Lima
+2024-06-28 11:41:03,600:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 11:41:03,720:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 11:41:03,896:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 12:01:05,248:INFO:Обработка пары: Miami - Havana
+2024-06-28 12:01:05,443:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:01:05,605:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 12:01:05,810:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 12:01:05,810:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 12:01:05,974:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:01:06,119:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:01:06,370:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 12:01:06,370:INFO:Обработка пары: Miami - Lima
+2024-06-28 12:01:06,462:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:01:06,600:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:01:06,808:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 12:02:11,990:INFO:Обработка пары: Miami - Havana
+2024-06-28 12:02:12,119:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:02:12,234:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 12:02:12,444:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 12:02:12,444:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 12:02:12,550:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:02:12,646:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:02:12,834:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 12:02:12,834:INFO:Обработка пары: Miami - Lima
+2024-06-28 12:02:12,955:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:02:13,071:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:02:13,275:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 12:03:39,058:INFO:Обработка пары: Miami - Havana
+2024-06-28 12:03:39,218:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:03:39,300:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 12:03:39,444:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 12:03:39,445:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 12:03:39,526:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:03:39,606:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:03:39,767:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 12:03:39,767:INFO:Обработка пары: Miami - Lima
+2024-06-28 12:03:39,858:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:03:39,933:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:03:40,084:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 12:06:35,348:INFO:Обработка пары: New York - San Salvador
+2024-06-28 12:06:35,466:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:35,547:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:06:35,771:INFO:PNG файл создан: html_map_png/New York_San Salvador_map_2806.png
+2024-06-28 12:06:35,771:INFO:Обработка пары: Miami - Havana
+2024-06-28 12:06:35,856:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:35,936:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 12:06:36,073:INFO:PNG файл создан: html_map_png/Miami_Havana_map_2806.png
+2024-06-28 12:06:36,074:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 12:06:36,159:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:06:36,238:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:06:36,389:INFO:PNG файл создан: html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 12:06:36,389:INFO:Обработка пары: Miami - Lima
+2024-06-28 12:06:36,476:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:36,558:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:06:36,721:INFO:PNG файл создан: html_map_png/Miami_Lima_map_2806.png
+2024-06-28 12:06:36,721:INFO:Обработка пары: New York - Mexico City
+2024-06-28 12:06:36,812:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:36,955:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:37,225:INFO:PNG файл создан: html_map_png/New York_Mexico City_map_2806.png
+2024-06-28 12:06:37,226:INFO:Обработка пары: New York - Quito
+2024-06-28 12:06:37,319:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:37,453:INFO:Геокодирование успешно для Quito, Ecuador: -0.1806532, -78.4678382
+2024-06-28 12:06:37,660:INFO:PNG файл создан: html_map_png/New York_Quito_map_2806.png
+2024-06-28 12:06:37,661:INFO:Обработка пары: Los Angeles - Guatemala City
+2024-06-28 12:06:38,057:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 12:06:38,178:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 12:06:38,377:INFO:PNG файл создан: html_map_png/Los Angeles_Guatemala City_map_2806.png
+2024-06-28 12:06:38,377:INFO:Обработка пары: New York - Santo Domingo
+2024-06-28 12:06:38,459:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:38,611:INFO:Геокодирование успешно для Santo Domingo, Dominican Republic: 18.4626178, -69.93609239999999
+2024-06-28 12:06:38,808:INFO:PNG файл создан: html_map_png/New York_Santo Domingo_map_2806.png
+2024-06-28 12:06:38,808:INFO:Обработка пары: Chicago - Mexico City
+2024-06-28 12:06:38,930:INFO:Геокодирование успешно для Chicago, United States: 41.8781136, -87.6297982
+2024-06-28 12:06:39,035:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:39,283:INFO:PNG файл создан: html_map_png/Chicago_Mexico City_map_2806.png
+2024-06-28 12:06:39,284:INFO:Обработка пары: Miami - Managua
+2024-06-28 12:06:39,373:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:39,497:INFO:Геокодирование успешно для Managua, Nicaragua: 12.1149926, -86.2361744
+2024-06-28 12:06:39,681:INFO:PNG файл создан: html_map_png/Miami_Managua_map_2806.png
+2024-06-28 12:06:39,681:INFO:Обработка пары: Dallas - San Salvador
+2024-06-28 12:06:39,823:INFO:Геокодирование успешно для Dallas, United States: 32.7766642, -96.79698789999999
+2024-06-28 12:06:39,905:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:06:40,143:INFO:PNG файл создан: html_map_png/Dallas_San Salvador_map_2806.png
+2024-06-28 12:06:40,143:INFO:Обработка пары: New York - Santiago
+2024-06-28 12:06:40,222:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:40,361:INFO:Геокодирование успешно для Santiago, Dominican Republic: 19.4791963, -70.6930568
+2024-06-28 12:06:40,575:INFO:PNG файл создан: html_map_png/New York_Santiago_map_2806.png
+2024-06-28 12:06:40,575:INFO:Обработка пары: Miami - Madrid
+2024-06-28 12:06:40,654:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:40,790:INFO:Геокодирование успешно для Madrid, Spain: 40.4167754, -3.7037902
+2024-06-28 12:06:41,010:INFO:PNG файл создан: html_map_png/Miami_Madrid_map_2806.png
+2024-06-28 12:06:41,010:INFO:Обработка пары: New York - Guatemala City
+2024-06-28 12:06:41,089:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:41,184:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 12:06:41,388:INFO:PNG файл создан: html_map_png/New York_Guatemala City_map_2806.png
+2024-06-28 12:06:41,388:INFO:Обработка пары: New York - Bogota
+2024-06-28 12:06:41,474:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:41,618:INFO:Геокодирование успешно для Bogota, Colombia: 4.710988599999999, -74.072092
+2024-06-28 12:06:41,851:INFO:PNG файл создан: html_map_png/New York_Bogota_map_2806.png
+2024-06-28 12:06:41,851:INFO:Обработка пары: New York - Medellin
+2024-06-28 12:06:41,954:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:42,077:INFO:Геокодирование успешно для Medellin, Colombia: 6.2476376, -75.56581530000001
+2024-06-28 12:06:42,299:INFO:PNG файл создан: html_map_png/New York_Medellin_map_2806.png
+2024-06-28 12:06:42,299:INFO:Обработка пары: Miami - Bogota
+2024-06-28 12:06:42,382:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:42,459:INFO:Геокодирование успешно для Bogota, Colombia: 4.710988599999999, -74.072092
+2024-06-28 12:06:42,673:INFO:PNG файл создан: html_map_png/Miami_Bogota_map_2806.png
+2024-06-28 12:06:42,673:INFO:Обработка пары: Miami - Buenos Aires
+2024-06-28 12:06:42,840:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:42,987:INFO:Геокодирование успешно для Buenos Aires, Argentina: -34.6036844, -58.3815591
+2024-06-28 12:06:43,159:INFO:PNG файл создан: html_map_png/Miami_Buenos Aires_map_2806.png
+2024-06-28 12:06:43,159:INFO:Обработка пары: Washington - Lima
+2024-06-28 12:06:43,306:INFO:Геокодирование успешно для Washington, United States: 47.7510741, -120.7401386
+2024-06-28 12:06:43,386:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:06:43,580:INFO:PNG файл создан: html_map_png/Washington_Lima_map_2806.png
+2024-06-28 12:06:43,580:INFO:Обработка пары: San Francisco - San Salvador
+2024-06-28 12:06:43,686:INFO:Геокодирование успешно для San Francisco, United States: 37.7749295, -122.4194155
+2024-06-28 12:06:43,773:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:06:43,965:INFO:PNG файл создан: html_map_png/San Francisco_San Salvador_map_2806.png
+2024-06-28 12:06:43,966:INFO:Обработка пары: New York - Cali
+2024-06-28 12:06:44,043:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:44,163:INFO:Геокодирование успешно для Cali, Colombia: 3.4516467, -76.5319854
+2024-06-28 12:06:44,386:INFO:PNG файл создан: html_map_png/New York_Cali_map_2806.png
+2024-06-28 12:06:44,387:INFO:Обработка пары: Los Angeles - Lima
+2024-06-28 12:06:44,475:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 12:06:44,552:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 12:06:44,699:INFO:PNG файл создан: html_map_png/Los Angeles_Lima_map_2806.png
+2024-06-28 12:06:44,699:INFO:Обработка пары: Miami - Medellin
+2024-06-28 12:06:44,776:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:44,851:INFO:Геокодирование успешно для Medellin, Colombia: 6.2476376, -75.56581530000001
+2024-06-28 12:06:45,058:INFO:PNG файл создан: html_map_png/Miami_Medellin_map_2806.png
+2024-06-28 12:06:45,058:INFO:Обработка пары: New York - Miami
+2024-06-28 12:06:45,143:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:45,220:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:45,448:INFO:PNG файл создан: html_map_png/New York_Miami_map_2806.png
+2024-06-28 12:06:45,448:INFO:Обработка пары: Dallas - Mexico City
+2024-06-28 12:06:45,529:INFO:Геокодирование успешно для Dallas, United States: 32.7766642, -96.79698789999999
+2024-06-28 12:06:46,128:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:46,355:INFO:PNG файл создан: html_map_png/Dallas_Mexico City_map_2806.png
+2024-06-28 12:06:46,355:INFO:Обработка пары: Miami - New York
+2024-06-28 12:06:46,711:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:46,791:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:46,952:INFO:PNG файл создан: html_map_png/Miami_New York_map_2806.png
+2024-06-28 12:06:46,952:INFO:Обработка пары: New York - San Pedro Sula
+2024-06-28 12:06:47,033:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 12:06:47,168:INFO:Геокодирование успешно для San Pedro Sula, Honduras: 15.5038827, -88.01386190000001
+2024-06-28 12:06:47,390:INFO:PNG файл создан: html_map_png/New York_San Pedro Sula_map_2806.png
+2024-06-28 12:06:47,391:INFO:Обработка пары: Houston - Mexico City
+2024-06-28 12:06:47,470:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:06:47,558:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:47,785:INFO:PNG файл создан: html_map_png/Houston_Mexico City_map_2806.png
+2024-06-28 12:06:47,786:INFO:Обработка пары: Miami - Cali
+2024-06-28 12:06:47,867:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:47,948:INFO:Геокодирование успешно для Cali, Colombia: 3.4516467, -76.5319854
+2024-06-28 12:06:48,192:INFO:PNG файл создан: html_map_png/Miami_Cali_map_2806.png
+2024-06-28 12:06:48,192:INFO:Обработка пары: Chicago - Guadalajara
+2024-06-28 12:06:48,275:INFO:Геокодирование успешно для Chicago, United States: 41.8781136, -87.6297982
+2024-06-28 12:06:48,405:INFO:Геокодирование успешно для Guadalajara, Mexico: 20.6751707, -103.3473385
+2024-06-28 12:06:48,656:INFO:PNG файл создан: html_map_png/Chicago_Guadalajara_map_2806.png
+2024-06-28 12:06:48,656:INFO:Обработка пары: Washington - Guatemala City
+2024-06-28 12:06:49,089:INFO:Геокодирование успешно для Washington, United States: 47.7510741, -120.7401386
+2024-06-28 12:06:49,161:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 12:06:49,362:INFO:PNG файл создан: html_map_png/Washington_Guatemala City_map_2806.png
+2024-06-28 12:06:49,362:INFO:Обработка пары: Houston - San Pedro Sula
+2024-06-28 12:06:49,444:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 12:06:49,523:INFO:Геокодирование успешно для San Pedro Sula, Honduras: 15.5038827, -88.01386190000001
+2024-06-28 12:06:49,738:INFO:PNG файл создан: html_map_png/Houston_San Pedro Sula_map_2806.png
+2024-06-28 12:06:49,738:INFO:Обработка пары: Los Angeles - Mexico City
+2024-06-28 12:06:49,819:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 12:06:49,900:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:50,124:INFO:PNG файл создан: html_map_png/Los Angeles_Mexico City_map_2806.png
+2024-06-28 12:06:50,124:INFO:Обработка пары: Los Angeles - Guadalajara
+2024-06-28 12:06:50,205:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 12:06:50,290:INFO:Геокодирование успешно для Guadalajara, Mexico: 20.6751707, -103.3473385
+2024-06-28 12:06:50,504:INFO:PNG файл создан: html_map_png/Los Angeles_Guadalajara_map_2806.png
+2024-06-28 12:06:50,505:INFO:Обработка пары: Boston - San Salvador
+2024-06-28 12:06:50,619:INFO:Геокодирование успешно для Boston, United States: 42.3600825, -71.0588801
+2024-06-28 12:06:50,704:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 12:06:50,928:INFO:PNG файл создан: html_map_png/Boston_San Salvador_map_2806.png
+2024-06-28 12:06:50,928:INFO:Обработка пары: Atlanta - Mexico City
+2024-06-28 12:06:51,052:INFO:Геокодирование успешно для Atlanta, United States: 33.748752, -84.38768449999999
+2024-06-28 12:06:51,131:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:51,359:INFO:PNG файл создан: html_map_png/Atlanta_Mexico City_map_2806.png
+2024-06-28 12:06:51,359:INFO:Обработка пары: Miami - Santa Clara
+2024-06-28 12:06:51,459:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:51,585:INFO:Геокодирование успешно для Santa Clara, Cuba: 22.424398, -79.9416549
+2024-06-28 12:06:52,051:INFO:PNG файл создан: html_map_png/Miami_Santa Clara_map_2806.png
+2024-06-28 12:06:52,051:INFO:Обработка пары: Miami - Mexico City
+2024-06-28 12:06:52,133:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 12:06:52,214:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 12:06:52,458:INFO:PNG файл создан: html_map_png/Miami_Mexico City_map_2806.png
+2024-06-28 13:13:19,667:INFO:Обработка пары: New York - San Salvador
+2024-06-28 13:13:19,809:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:19,954:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 13:13:20,169:INFO:PNG файл создан: Results/html_map_png/New York_San Salvador_map_2806.png
+2024-06-28 13:13:20,169:INFO:Обработка пары: Miami - Havana
+2024-06-28 13:13:20,319:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:20,464:INFO:Геокодирование успешно для Havana, Cuba: 23.1135925, -82.3665956
+2024-06-28 13:13:20,638:INFO:PNG файл создан: Results/html_map_png/Miami_Havana_map_2806.png
+2024-06-28 13:13:20,639:INFO:Обработка пары: Houston - San Salvador
+2024-06-28 13:13:20,812:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 13:13:20,906:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 13:13:21,125:INFO:PNG файл создан: Results/html_map_png/Houston_San Salvador_map_2806.png
+2024-06-28 13:13:21,125:INFO:Обработка пары: Miami - Lima
+2024-06-28 13:13:21,209:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:21,359:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 13:13:21,562:INFO:PNG файл создан: Results/html_map_png/Miami_Lima_map_2806.png
+2024-06-28 13:13:21,562:INFO:Обработка пары: New York - Mexico City
+2024-06-28 13:13:21,654:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:21,779:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:21,998:INFO:PNG файл создан: Results/html_map_png/New York_Mexico City_map_2806.png
+2024-06-28 13:13:21,998:INFO:Обработка пары: New York - Quito
+2024-06-28 13:13:22,090:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:22,230:INFO:Геокодирование успешно для Quito, Ecuador: -0.1806532, -78.4678382
+2024-06-28 13:13:22,473:INFO:PNG файл создан: Results/html_map_png/New York_Quito_map_2806.png
+2024-06-28 13:13:22,473:INFO:Обработка пары: Los Angeles - Guatemala City
+2024-06-28 13:13:22,584:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 13:13:22,719:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 13:13:22,930:INFO:PNG файл создан: Results/html_map_png/Los Angeles_Guatemala City_map_2806.png
+2024-06-28 13:13:22,930:INFO:Обработка пары: New York - Santo Domingo
+2024-06-28 13:13:23,021:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:23,177:INFO:Геокодирование успешно для Santo Domingo, Dominican Republic: 18.4626178, -69.93609239999999
+2024-06-28 13:13:23,399:INFO:PNG файл создан: Results/html_map_png/New York_Santo Domingo_map_2806.png
+2024-06-28 13:13:23,399:INFO:Обработка пары: Chicago - Mexico City
+2024-06-28 13:13:23,537:INFO:Геокодирование успешно для Chicago, United States: 41.8781136, -87.6297982
+2024-06-28 13:13:23,625:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:23,871:INFO:PNG файл создан: Results/html_map_png/Chicago_Mexico City_map_2806.png
+2024-06-28 13:13:23,872:INFO:Обработка пары: Miami - Managua
+2024-06-28 13:13:23,948:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:24,078:INFO:Геокодирование успешно для Managua, Nicaragua: 12.1149926, -86.2361744
+2024-06-28 13:13:24,269:INFO:PNG файл создан: Results/html_map_png/Miami_Managua_map_2806.png
+2024-06-28 13:13:24,269:INFO:Обработка пары: Dallas - San Salvador
+2024-06-28 13:13:24,407:INFO:Геокодирование успешно для Dallas, United States: 32.7766642, -96.79698789999999
+2024-06-28 13:13:24,497:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 13:13:24,715:INFO:PNG файл создан: Results/html_map_png/Dallas_San Salvador_map_2806.png
+2024-06-28 13:13:24,716:INFO:Обработка пары: New York - Santiago
+2024-06-28 13:13:24,801:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:24,934:INFO:Геокодирование успешно для Santiago, Dominican Republic: 19.4791963, -70.6930568
+2024-06-28 13:13:25,144:INFO:PNG файл создан: Results/html_map_png/New York_Santiago_map_2806.png
+2024-06-28 13:13:25,144:INFO:Обработка пары: Miami - Madrid
+2024-06-28 13:13:25,231:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:25,348:INFO:Геокодирование успешно для Madrid, Spain: 40.4167754, -3.7037902
+2024-06-28 13:13:25,571:INFO:PNG файл создан: Results/html_map_png/Miami_Madrid_map_2806.png
+2024-06-28 13:13:25,571:INFO:Обработка пары: New York - Guatemala City
+2024-06-28 13:13:25,661:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:25,751:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 13:13:25,984:INFO:PNG файл создан: Results/html_map_png/New York_Guatemala City_map_2806.png
+2024-06-28 13:13:25,984:INFO:Обработка пары: New York - Bogota
+2024-06-28 13:13:26,059:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:26,185:INFO:Геокодирование успешно для Bogota, Colombia: 4.710988599999999, -74.072092
+2024-06-28 13:13:26,391:INFO:PNG файл создан: Results/html_map_png/New York_Bogota_map_2806.png
+2024-06-28 13:13:26,392:INFO:Обработка пары: New York - Medellin
+2024-06-28 13:13:26,469:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:26,611:INFO:Геокодирование успешно для Medellin, Colombia: 6.2476376, -75.56581530000001
+2024-06-28 13:13:26,835:INFO:PNG файл создан: Results/html_map_png/New York_Medellin_map_2806.png
+2024-06-28 13:13:26,835:INFO:Обработка пары: Miami - Bogota
+2024-06-28 13:13:26,927:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:27,005:INFO:Геокодирование успешно для Bogota, Colombia: 4.710988599999999, -74.072092
+2024-06-28 13:13:27,199:INFO:PNG файл создан: Results/html_map_png/Miami_Bogota_map_2806.png
+2024-06-28 13:13:27,199:INFO:Обработка пары: Miami - Buenos Aires
+2024-06-28 13:13:27,278:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:27,450:INFO:Геокодирование успешно для Buenos Aires, Argentina: -34.6036844, -58.3815591
+2024-06-28 13:13:27,641:INFO:PNG файл создан: Results/html_map_png/Miami_Buenos Aires_map_2806.png
+2024-06-28 13:13:27,641:INFO:Обработка пары: Washington - Lima
+2024-06-28 13:13:27,791:INFO:Геокодирование успешно для Washington, United States: 47.7510741, -120.7401386
+2024-06-28 13:13:27,880:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 13:13:28,090:INFO:PNG файл создан: Results/html_map_png/Washington_Lima_map_2806.png
+2024-06-28 13:13:28,090:INFO:Обработка пары: San Francisco - San Salvador
+2024-06-28 13:13:28,193:INFO:Геокодирование успешно для San Francisco, United States: 37.7749295, -122.4194155
+2024-06-28 13:13:28,268:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 13:13:28,463:INFO:PNG файл создан: Results/html_map_png/San Francisco_San Salvador_map_2806.png
+2024-06-28 13:13:28,463:INFO:Обработка пары: New York - Cali
+2024-06-28 13:13:28,545:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:28,675:INFO:Геокодирование успешно для Cali, Colombia: 3.4516467, -76.5319854
+2024-06-28 13:13:28,891:INFO:PNG файл создан: Results/html_map_png/New York_Cali_map_2806.png
+2024-06-28 13:13:28,891:INFO:Обработка пары: Los Angeles - Lima
+2024-06-28 13:13:28,979:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 13:13:29,055:INFO:Геокодирование успешно для Lima, Peru: -12.0466888, -77.04308859999999
+2024-06-28 13:13:29,207:INFO:PNG файл создан: Results/html_map_png/Los Angeles_Lima_map_2806.png
+2024-06-28 13:13:29,207:INFO:Обработка пары: Miami - Medellin
+2024-06-28 13:13:29,285:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:29,364:INFO:Геокодирование успешно для Medellin, Colombia: 6.2476376, -75.56581530000001
+2024-06-28 13:13:29,545:INFO:PNG файл создан: Results/html_map_png/Miami_Medellin_map_2806.png
+2024-06-28 13:13:29,546:INFO:Обработка пары: New York - Miami
+2024-06-28 13:13:29,641:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:29,726:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:29,947:INFO:PNG файл создан: Results/html_map_png/New York_Miami_map_2806.png
+2024-06-28 13:13:29,947:INFO:Обработка пары: Dallas - Mexico City
+2024-06-28 13:13:30,062:INFO:Геокодирование успешно для Dallas, United States: 32.7766642, -96.79698789999999
+2024-06-28 13:13:30,141:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:30,433:INFO:PNG файл создан: Results/html_map_png/Dallas_Mexico City_map_2806.png
+2024-06-28 13:13:30,433:INFO:Обработка пары: Miami - New York
+2024-06-28 13:13:30,505:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:30,577:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:30,744:INFO:PNG файл создан: Results/html_map_png/Miami_New York_map_2806.png
+2024-06-28 13:13:30,744:INFO:Обработка пары: New York - San Pedro Sula
+2024-06-28 13:13:30,826:INFO:Геокодирование успешно для New York, United States: 40.7127753, -74.0059728
+2024-06-28 13:13:30,966:INFO:Геокодирование успешно для San Pedro Sula, Honduras: 15.5038827, -88.01386190000001
+2024-06-28 13:13:31,189:INFO:PNG файл создан: Results/html_map_png/New York_San Pedro Sula_map_2806.png
+2024-06-28 13:13:31,189:INFO:Обработка пары: Houston - Mexico City
+2024-06-28 13:13:31,262:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 13:13:31,338:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:31,567:INFO:PNG файл создан: Results/html_map_png/Houston_Mexico City_map_2806.png
+2024-06-28 13:13:31,567:INFO:Обработка пары: Miami - Cali
+2024-06-28 13:13:31,648:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:31,728:INFO:Геокодирование успешно для Cali, Colombia: 3.4516467, -76.5319854
+2024-06-28 13:13:31,910:INFO:PNG файл создан: Results/html_map_png/Miami_Cali_map_2806.png
+2024-06-28 13:13:31,911:INFO:Обработка пары: Chicago - Guadalajara
+2024-06-28 13:13:31,991:INFO:Геокодирование успешно для Chicago, United States: 41.8781136, -87.6297982
+2024-06-28 13:13:32,138:INFO:Геокодирование успешно для Guadalajara, Mexico: 20.6751707, -103.3473385
+2024-06-28 13:13:32,367:INFO:PNG файл создан: Results/html_map_png/Chicago_Guadalajara_map_2806.png
+2024-06-28 13:13:32,367:INFO:Обработка пары: Washington - Guatemala City
+2024-06-28 13:13:32,439:INFO:Геокодирование успешно для Washington, United States: 47.7510741, -120.7401386
+2024-06-28 13:13:32,514:INFO:Геокодирование успешно для Guatemala City, Guatemala: 14.6349149, -90.5068824
+2024-06-28 13:13:32,698:INFO:PNG файл создан: Results/html_map_png/Washington_Guatemala City_map_2806.png
+2024-06-28 13:13:32,698:INFO:Обработка пары: Houston - San Pedro Sula
+2024-06-28 13:13:32,780:INFO:Геокодирование успешно для Houston, United States: 29.7604267, -95.3698028
+2024-06-28 13:13:32,863:INFO:Геокодирование успешно для San Pedro Sula, Honduras: 15.5038827, -88.01386190000001
+2024-06-28 13:13:33,122:INFO:PNG файл создан: Results/html_map_png/Houston_San Pedro Sula_map_2806.png
+2024-06-28 13:13:33,122:INFO:Обработка пары: Los Angeles - Mexico City
+2024-06-28 13:13:33,206:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 13:13:33,284:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:33,484:INFO:PNG файл создан: Results/html_map_png/Los Angeles_Mexico City_map_2806.png
+2024-06-28 13:13:33,484:INFO:Обработка пары: Los Angeles - Guadalajara
+2024-06-28 13:13:33,566:INFO:Геокодирование успешно для Los Angeles, United States: 34.0549076, -118.242643
+2024-06-28 13:13:33,644:INFO:Геокодирование успешно для Guadalajara, Mexico: 20.6751707, -103.3473385
+2024-06-28 13:13:33,848:INFO:PNG файл создан: Results/html_map_png/Los Angeles_Guadalajara_map_2806.png
+2024-06-28 13:13:33,849:INFO:Обработка пары: Boston - San Salvador
+2024-06-28 13:13:33,976:INFO:Геокодирование успешно для Boston, United States: 42.3600825, -71.0588801
+2024-06-28 13:13:34,056:INFO:Геокодирование успешно для San Salvador, El Salvador: 13.6929403, -89.2181911
+2024-06-28 13:13:34,268:INFO:PNG файл создан: Results/html_map_png/Boston_San Salvador_map_2806.png
+2024-06-28 13:13:34,268:INFO:Обработка пары: Atlanta - Mexico City
+2024-06-28 13:13:34,367:INFO:Геокодирование успешно для Atlanta, United States: 33.748752, -84.38768449999999
+2024-06-28 13:13:34,456:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:34,679:INFO:PNG файл создан: Results/html_map_png/Atlanta_Mexico City_map_2806.png
+2024-06-28 13:13:34,679:INFO:Обработка пары: Miami - Santa Clara
+2024-06-28 13:13:34,782:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:34,915:INFO:Геокодирование успешно для Santa Clara, Cuba: 22.424398, -79.9416549
+2024-06-28 13:13:35,104:INFO:PNG файл создан: Results/html_map_png/Miami_Santa Clara_map_2806.png
+2024-06-28 13:13:35,104:INFO:Обработка пары: Miami - Mexico City
+2024-06-28 13:13:35,182:INFO:Геокодирование успешно для Miami, United States: 25.7616798, -80.1917902
+2024-06-28 13:13:35,262:INFO:Геокодирование успешно для Mexico City, Mexico: 19.4326077, -99.133208
+2024-06-28 13:13:35,519:INFO:PNG файл создан: Results/html_map_png/Miami_Mexico City_map_2806.png

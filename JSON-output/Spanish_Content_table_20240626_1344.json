@@ -1,0 +1,143 @@
+[
+    {
+        "depCity": "MIA",
+        "destCity": "HAV",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "\u00bfCu\u00e1nto tiempo se tarda en volar de Miami a La Habana?",
+                "answer": "El tiempo promedio de vuelo de Miami a La Habana es de alrededor de 1 hora y 15 minutos, dependiendo de la aerol\u00ednea y escalas."
+            },
+            {
+                "question": "\u00bfQu\u00e9 aerol\u00edneas ofrecen vuelos directos de Miami a La Habana?",
+                "answer": "Algunas aerol\u00edneas que ofrecen vuelos directos entre Miami y La Habana son American Airlines, JetBlue, y Delta."
+            },
+            {
+                "question": "\u00bfNecesito una visa para viajar de Miami a La Habana?",
+                "answer": "S\u00ed, los viajeros estadounidenses necesitan una visa para viajar a Cuba. Puedes obtener una visa espec\u00edfica para viajar a Cuba por motivos de turismo."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la mejor \u00e9poca del a\u00f1o para viajar de Miami a La Habana?",
+                "answer": "La mejor \u00e9poca para visitar La Habana es durante la temporada seca de noviembre a abril, cuando el clima es agradable y hay menos posibilidades de lluvia."
+            },
+            {
+                "question": "\u00bfC\u00f3mo puedo cambiar mi dinero a la moneda local cubana en La Habana?",
+                "answer": "Puedes cambiar tu dinero a la moneda local cubana, el peso cubano convertible (CUC), en casas de cambio (CADECA) o en hoteles en La Habana."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la forma m\u00e1s com\u00fan de transporte para moverse dentro de La Habana?",
+                "answer": "La forma m\u00e1s com\u00fan de transporte en La Habana es el taxi, ya sea en taxis privados (almendrones) o taxis estatales."
+            },
+            {
+                "question": "\u00bfQu\u00e9 platos t\u00edpicos de la comida cubana debo probar en La Habana?",
+                "answer": "Algunos platos t\u00edpicos de la comida cubana que debes probar en La Habana son el ropa vieja, el congri, y el famoso mojito cubano."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el mejor modo de explorar la arquitectura colonial de La Habana Vieja?",
+                "answer": "La mejor manera de explorar la arquitectura colonial de"
+            }
+        ],
+        "articleBlocks": []
+    },
+    {
+        "depCity": "HOU",
+        "destCity": "SAL",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "\u00bfCu\u00e1nto tiempo lleva volar de Houston a San Salvador?",
+                "answer": "El tiempo promedio de vuelo de Houston a San Salvador es de alrededor de ... dependiendo de la aerol\u00ednea y las escalas."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la aerol\u00ednea m\u00e1s com\u00fan para volar de Houston a San Salvador?",
+                "answer": "United Airlines es una de las aerol\u00edneas m\u00e1s comunes para este trayecto, pero tambi\u00e9n hay otras opciones como American Airlines y Spirit Airlines."
+            },
+            {
+                "question": "\u00bfNecesito visa para viajar de Houston a San Salvador?",
+                "answer": "Los ciudadanos estadounidenses no necesitan visa para viajar a El Salvador con fines tur\u00edsticos, pero es importante verificar los requisitos actuales antes de viajar."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la moneda utilizada en San Salvador?",
+                "answer": "La moneda oficial de El Salvador es el d\u00f3lar estadounidense, por lo que no es necesario cambiar dinero al llegar."
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la mejor \u00e9poca del a\u00f1o para visitar San Salvador desde Houston?",
+                "answer": "La temporada seca, de noviembre a abril, suele ser la mejor \u00e9poca para visitar San Salvador y disfrutar de un clima agradable."
+            },
+            {
+                "question": "\u00bfCu\u00e1les son algunas atracciones tur\u00edsticas populares en San Salvador?",
+                "answer": "Algunas atracciones populares en San Salvador incluyen el Parque Nacional El Boquer\u00f3n, la Catedral Metropolitana, y el Museo de Arte de El Salvador."
+            },
+            {
+                "question": "\u00bfSe necesita vacunarse antes de viajar a San Salvador desde Houston?",
+                "answer": "Se recomienda consultar a un m\u00e9dico o a un centro de vacunaci\u00f3n internacional para obtener informaci\u00f3n actualizada sobre las vacunas recomendadas para viajar a El Salvador."
+            },
+            {
+                "question": "\u00bfQu\u00e9 debo empacar para un viaje de Houston a San Salvador?",
+                "answer": "Es recomendable llevar ropa ligera y c\u00f3moda, protector solar, repelente de insectos, una chaqueta ligera para las noches frescas, y un adaptador de corriente si es necesario."
+            },
+            {
+                "question": "\u00bfEs seguro viajar a San Salvador desde Houston?",
+                "answer": "Como en cualquier"
+            }
+        ],
+        "articleBlocks": []
+    },
+    {
+        "depCity": "MIA",
+        "destCity": "LIM",
+        "imageBlock": {
+            "title": "Placeholder Title",
+            "text": "Placeholder Text"
+        },
+        "faqBlock": [
+            {
+                "question": "How long does it take to fly from Miami to Lima?",
+                "answer": "The average flight time from Miami to Lima is around 6 to 7 hours, depending on the airline and any layovers."
+            },
+            {
+                "question": "Which airlines offer direct flights from Miami to Lima?",
+                "answer": "Airlines such as LATAM, American Airlines, and Avianca offer direct flights from Miami to Lima."
+            },
+            {
+                "question": "What is the best time of year to visit Lima?",
+                "answer": "The best time to visit Lima is during the dry season, from December to April, when the weather is sunny and warm."
+            },
+            {
+                "question": "Do I need a visa to travel from Miami to Lima?",
+                "answer": "US citizens do not need a visa to visit Peru for tourism purposes if their stay is less than 183 days."
+            },
+            {
+                "question": "What is the currency used in Lima?",
+                "answer": "The currency used in Lima is the Peruvian Sol (PEN)."
+            },
+            {
+                "question": "How far is Lima's airport from the city center?",
+                "answer": "Jorge Chavez International Airport is located about 10 miles (16 km) from Lima's city center."
+            },
+            {
+                "question": "Is it safe to travel from Miami to Lima?",
+                "answer": "Overall, Lima is a safe city for tourists. However, like any major city, it is important to stay vigilant and take necessary precautions."
+            },
+            {
+                "question": "What are some must-see attractions in Lima?",
+                "answer": "Some must-see attractions in Lima include the Historic Center, Miraflores district, Larco Museum, and the coastal cliffs of Lima."
+            },
+            {
+                "question": "What language is spoken in Lima?",
+                "answer": "The official language spoken in Lima is Spanish, but many people working in tourism also speak English."
+            },
+            {
+                "question": "Are there any specific health precautions I should take before traveling to Lima?",
+                "answer": "It is recommended to drink bottled water, avoid eating street food, and take precautions against mosquito bites to prevent illnesses like traveler's diarrhea and dengue fever."
+            }
+        ],
+        "articleBlocks": []
+    }
+]
