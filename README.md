@@ -1,7 +1,10 @@
 # SEO BOG
 
 ## Project Description
-SEO BOG generates data for promotional Travel SEO pages. The data includes FAQs, short and long articles, O&D route maps. This project includes various scripts for handling Excel and CSV files, generating HTML maps, and more.
+SEO BOG generates data for promotional Travel SEO pages, including FAQs, short and long articles, and O&D route maps. This project contains various scripts for handling Excel and CSV files, generating HTML maps, and more.
+
+> **Important Notice**  
+> This repository and its contents are proprietary to Aleksejs Filatovs (filatov87). Unauthorized use or distribution of this code is prohibited. For any questions, contact the repository owner.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -26,7 +29,7 @@ SEO BOG generates data for promotional Travel SEO pages. The data includes FAQs,
     ```
 3. Install the required dependencies:
     ```sh
-    pip install pandas openpyxl selenium urllib3 google-api-python-client requests pillow
+    pip install -r requirements.txt
     ```
 
 ## Usage
@@ -70,40 +73,41 @@ SEO BOG generates data for promotional Travel SEO pages. The data includes FAQs,
 - `html_map_generator.py`: Generates HTML maps based on provided data.
 
 ## Dependencies
-- pandas
-- openpyxl
-- selenium
-- urllib3
-- google-api-python-client
-- requests
-- pillow
-
-Install these dependencies using:
+Dependencies for this project are listed in the `requirements.txt` file and can be installed with:
 ```sh
-pip install pandas openpyxl selenium urllib3 google-api-python-client requests pillow
-```
+pip install -r requirements.txt
+
 ## Configuration
-
 Ensure the following files are prepared and placed in the appropriate directories:
-
-- `departures_destinations.csv`: Contains data with columns Lead Departure City code, Lead Departure City, Lead Departure Country, Lead Destination City code, Lead Destination City, Lead Destination Country.
+- `departures_destinations.csv`: Contains data with columns:  
+  Lead Departure City code, Lead Departure City, Lead Departure Country, Lead Destination City code, Lead Destination City, Lead Destination Country.
 - `Logo.png`: Logo file to be used in the maps.
 
-The input files should be placed in the Source directory, and the output files will be saved in the JSON-output directory.
+Input files should be placed in the `Source` directory, and the output files will be saved in the `JSON-output` directory.
 
 ## Contribution
-
-	1.	Fork the repository.
-	2.	Create a new branch (git checkout -b feature-branch).
-	3.	Make your changes.
-	4.	Commit your changes (git commit -am 'Add new feature').
-	5.	Push to the branch (git push origin feature-branch).
-	6.	Create a new Pull Request.
+Contributions to this project are welcome but must adhere to the following:
+1. Fork the repository.
+2. Create a new branch for your feature:
+    ```sh
+    git checkout -b feature-branch
+    ```
+3. Make your changes.
+4. Commit your changes with a descriptive message:
+    ```sh
+    git commit -am 'Add new feature'
+    ```
+5. Push your changes:
+    ```sh
+    git push origin feature-branch
+    ```
+6. Open a Pull Request.
 
 ## License
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+> **Note:** All contributors must agree to the licensing terms of this project.
 
 ## Contact
-
-For any questions or issues, please open an issue in the repository or contact filatov87.
+For any questions, issues, or requests, please open an issue in the repository or contact **[filatov87]** directly.
