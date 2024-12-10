@@ -72,10 +72,6 @@ SEO BOG generates data for promotional Travel SEO pages, including FAQs, short a
 - `add_logos_to_maps.py`: Adds logos to generated maps.
 - `html_map_generator.py`: Generates HTML maps based on provided data.
 
-## Dependencies
-Dependencies for this project are listed in the `requirements.txt` file and can be installed with:
-```sh
-pip install -r requirements.txt
 
 ## Configuration
 Ensure the following files are prepared and placed in the appropriate directories:
@@ -104,8 +100,9 @@ Contributions to this project are welcome but must adhere to the following:
 6. Open a Pull Request.
 
 ## License
-This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for details.
+This project does not currently include a license file. If you are interested in using this repository or its codebase, please contact **[filatov87]** to discuss terms and permissions.
+
+> **Important:** By default, all rights to this code are reserved unless explicitly stated otherwise.
 
 > **Note:** All contributors must agree to the licensing terms of this project.
 
